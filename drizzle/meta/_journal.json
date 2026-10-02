@@ -1,0 +1,20 @@
+{
+  "version": "7",
+  "dialect": "sqlite",
+  "entries": [
+    {
+      "idx": 0,
+      "version": "6",
+      "when": 1787312018572,
+      "tag": "0000_sudden_spiral",
+      "breakpoints": true
+    },
+    {
+      "idx": 1,
+      "version": "6",
+      "when": 1787422079636,
+      "tag": "0001_organic_emma_frost",
+      "breakpoints": true
+    }
+  ]
+}

@@ -1,0 +1,230 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#e30613" />
+    <meta
+      name="description"
+      content="Portal digital de serviços financeiros e educação com visual inspirado em bancos modernos brasileiros."
+    />
+    <meta property="og:title" content="FinUp — Banco Digital SENAI" />
+    <meta property="og:description" content="Portal digital de serviços financeiros e educação com visual inspirado em bancos modernos brasileiros." />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="https://senai-finup-tutorial-caixa.kaiquesantos19silva.chatgpt.site/og.png" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <title>FinUp — Banco Digital SENAI</title>
+    <link rel="icon" href="./assets/images/favicon.png" />
+    <script src="./assets/js/legacy.js"></script>
+    <script src="./assets/js/edition.js"></script>
+    <link rel="stylesheet" href="./assets/css/styles.css" />
+    <link rel="stylesheet" href="./assets/css/lite.css" />
+  </head>
+  <body>
+    <div class="skip-links" aria-label="Atalhos de acessibilidade">
+      <a class="skip-link" href="#main-content">Ir para o conteúdo</a>
+      <a class="skip-link" href="#primaryNav">Ir para a navegação</a>
+    </div>
+    <div class="sr-only" id="srStatus" role="status" aria-live="polite" aria-atomic="true"></div>
+
+    <section class="login-screen" id="loginScreen" aria-labelledby="loginTitle">
+      <div class="login-brand">
+        <div class="brand-stripes" aria-hidden="true">
+          <i></i><i></i><i></i><i></i><i></i>
+        </div>
+        <div class="login-brand-copy">
+          <span class="eyebrow light">PORTAL DIGITAL</span>
+          <h1>FinUp <span>Bank</span></h1>
+          <p>Serviços, contratos e créditos pedagógicos com a experiência de um banco digital moderno.</p>
+
+          <div class="login-brand-meta" aria-label="Recursos principais do Caixa SENAI">
+            <span class="meta-badge">Ambiente demonstrativo</span>
+            <span class="meta-badge">Sem CPF</span>
+            <span class="meta-badge">Acesso rápido</span>
+          </div>
+
+          <div class="login-metrics" aria-label="Indicadores do Caixa SENAI">
+            <div>
+              <strong>04</strong>
+              <span>perfis de teste</span>
+            </div>
+            <div>
+              <strong>00</strong>
+              <span>dinheiro real</span>
+            </div>
+            <div>
+              <strong>100%</strong>
+              <span>ambiente demonstrativo</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="login-panel">
+        <div class="login-card">
+          <img class="login-logo" src="./assets/images/senai-logo.png" alt="SENAI" />
+          <div class="test-mode-ribbon"><span></span> Ambiente demonstrativo</div>
+          <div class="login-heading">
+            <span class="eyebrow">AMBIENTE DEMONSTRATIVO</span>
+            <h2 id="loginTitle">Acesse o FinUp</h2>
+            <p>Escolha como você participa do projeto.</p>
+          </div>
+
+          <section class="login-assistant-card" aria-labelledby="loginAssistantTitle">
+            <div class="login-assistant-visual" aria-hidden="true">
+              <img id="loginAssistantAvatar" src="./assets/images/tutorial-caixa/assistants/kaique/01-o-que-e-o-caixa.gif" alt="" />
+            </div>
+            <div>
+              <span class="eyebrow">SEU ASSISTENTE</span>
+              <h3 id="loginAssistantTitle"><span id="loginAssistantName">Kaique</span> explica o Caixa</h3>
+              <p>Veja o essencial em quatro passos rápidos.</p>
+              <div class="login-assistant-actions">
+                <button class="compact-primary-button" type="button" data-action="open-tutorial">Tutorial</button>
+                <button class="compact-text-button" type="button" data-action="choose-assistant">Trocar</button>
+              </div>
+            </div>
+          </section>
+
+          <section class="test-login-card" aria-labelledby="testAccessTitle">
+            <div class="test-login-head"><div><strong id="testAccessTitle">Como você quer acessar?</strong><small>Escolha um perfil para ver as ferramentas certas para você.</small></div></div>
+            <div class="test-profile-grid" aria-label="Escolha um perfil de demonstração">
+              <button class="test-profile-button aluno" type="button" data-action="login-test" data-role="aluno" aria-describedby="testLoginStatus">
+                <span class="test-profile-icon" data-icon="graduation"></span><span class="test-profile-copy"><strong>Aluno</strong><small>Crie propostas, acompanhe seus créditos e evolua nas trilhas.</small><span class="test-profile-tag">Meu projeto</span></span><span class="test-profile-arrow" data-icon="arrow-right"></span>
+              </button>
+              <button class="test-profile-button professor" type="button" data-action="login-test" data-role="professor" aria-describedby="testLoginStatus">
+                <span class="test-profile-icon" data-icon="school"></span><span class="test-profile-copy"><strong>Docente</strong><small>Acompanhe turmas, avaliações e entregas pedagógicas.</small><span class="test-profile-tag">Acompanhamento</span></span><span class="test-profile-arrow" data-icon="arrow-right"></span>
+              </button>
+              <button class="test-profile-button adm" type="button" data-action="login-test" data-role="adm" aria-describedby="testLoginStatus">
+                <span class="test-profile-icon" data-icon="building"></span><span class="test-profile-copy"><strong>ADM</strong><small>Gerencie registros, governança e visão da unidade.</small><span class="test-profile-tag">Gestão institucional</span></span><span class="test-profile-arrow" data-icon="arrow-right"></span>
+              </button>
+              <button class="test-profile-button developer" type="button" data-action="login-test" data-role="desenvolvedor" aria-describedby="testLoginStatus">
+                <span class="test-profile-icon" data-icon="code"></span><span class="test-profile-copy"><strong>Desenvolvedor</strong><small>Confira serviços, integrações e informações técnicas.</small><span class="test-profile-tag">Ferramentas técnicas</span></span><span class="test-profile-arrow" data-icon="arrow-right"></span>
+              </button>
+            </div>
+            <p id="testLoginStatus" class="test-login-status" role="status" aria-live="polite">Selecione um perfil para começar.</p>
+          </section>
+
+          <div class="login-utility-row" aria-label="Acessibilidade no acesso">
+            <button type="button" data-action="read-page" aria-keyshortcuts="Alt+L"><span data-icon="volume"></span> Ouvir</button>
+            <button type="button" data-action="high-contrast" aria-pressed="false"><span data-icon="contrast"></span> Alto contraste</button>
+            <button type="button" data-action="toggle-theme" aria-label="Ativar tema escuro" aria-pressed="false"><span id="loginThemeIcon" data-icon="moon"></span><span id="loginThemeLabel">Modo escuro</span></button>
+            <button type="button" data-action="open-vlibras"><span data-icon="accessibility"></span> Libras</button>
+            <span><span data-icon="lock"></span> Sem CPF ou senha</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div class="app-shell is-hidden" id="appShell">
+      <aside class="sidebar" id="sidebar" aria-label="Navegação principal">
+        <div class="sidebar-brand">
+          <img src="./assets/images/senai-logo.png" alt="SENAI" />
+          <div><strong>CAIXA</strong><span>Créditos intergrupos</span></div>
+        </div>
+        <nav class="nav-list" id="primaryNav" aria-label="Seções do perfil atual" tabindex="0"><div id="navList"></div></nav>
+        <div class="sidebar-support">
+          <span class="support-icon" data-icon="help"></span>
+          <div><strong id="sidebarAssistantName">Kaique</strong><span>Assistente do Caixa</span></div>
+          <button type="button" data-action="open-support">Abrir suporte</button>
+        </div>
+        <div class="sidebar-footer">Projeto acadêmico • SENAI-SP</div>
+      </aside>
+
+      <div class="mobile-overlay" id="mobileOverlay" data-action="close-menu"></div>
+
+      <div class="app-main">
+        <header class="topbar">
+          <button class="icon-button menu-button" type="button" aria-label="Abrir menu" data-action="open-menu">
+            <span data-icon="menu"></span>
+          </button>
+          <div class="topbar-context">
+            <span id="topbarEyebrow">VISÃO GERAL</span>
+            <strong id="topbarTitle">Início</strong><span class="demo-mode-chip">MODO TESTE</span>
+          </div>
+          <div class="topbar-actions">
+            <button class="assistant-topbar-button" type="button" data-action="choose-assistant" aria-label="Trocar assistente">
+              <img id="assistantTopbarAvatar" src="./assets/images/tutorial-caixa/assistants/kaique/01-o-que-e-o-caixa.png" alt="" />
+              <span id="assistantTopbarName">Kaique</span>
+            </button>
+            <button class="icon-button" type="button" aria-label="Abrir recursos de acessibilidade" aria-controls="accessibilityMenu" aria-expanded="false" aria-keyshortcuts="Alt+A" data-action="accessibility-menu">
+              <span data-icon="accessibility"></span>
+            </button>
+            <button class="icon-button" type="button" aria-label="Alternar tema" aria-pressed="false" data-action="toggle-theme">
+              <span data-icon="moon" id="themeIcon"></span>
+            </button>
+            <button class="icon-button notification-button" type="button" aria-label="Notificações" data-action="notifications">
+              <span data-icon="bell"></span><i id="notificationDot"></i>
+            </button>
+            <button class="profile-button" type="button" data-action="profile-menu" aria-controls="profileMenu" aria-expanded="false">
+              <span class="avatar" id="profileAvatar">KS</span>
+              <span class="profile-copy"><strong id="profileName">Kaique Silva</strong><small id="profileRole">Aluno • DS2</small></span>
+              <span data-icon="chevron-down"></span>
+            </button>
+            <div class="accessibility-menu" id="accessibilityMenu" aria-label="Recursos de acessibilidade">
+              <div><strong>Acessibilidade</strong><small>Preferências salvas neste dispositivo</small></div>
+              <button type="button" data-action="text-size" aria-pressed="false"><span data-icon="type"></span><span><strong>Tamanho do texto</strong><small id="textSizeLabel">Padrão</small></span></button>
+              <button type="button" data-action="high-contrast" aria-pressed="false"><span data-icon="contrast"></span><span><strong>Alto contraste</strong><small>Reforçar cores e bordas</small></span></button>
+              <button type="button" data-action="reduce-motion" aria-pressed="false"><span data-icon="motion"></span><span><strong>Reduzir movimento</strong><small>Minimizar animações</small></span></button>
+              <button type="button" data-action="read-page" aria-pressed="false" aria-keyshortcuts="Alt+L"><span data-icon="volume"></span><span><strong>Ler esta página</strong><small id="readPageLabel">Iniciar leitura em voz alta</small></span></button>
+              <button type="button" data-action="reading-speed"><span data-icon="speed"></span><span><strong>Velocidade da voz</strong><small id="readingSpeedLabel">Normal — 1×</small></span></button>
+              <button type="button" data-action="open-vlibras"><span data-icon="accessibility"></span><span><strong>Abrir VLibras</strong><small>Tradução automática para Libras</small></span></button>
+              <button type="button" data-action="readable-font" aria-pressed="false"><span data-icon="type"></span><span><strong>Fonte legível</strong><small>Tipografia mais simples</small></span></button>
+              <button type="button" data-action="wide-spacing" aria-pressed="false"><span data-icon="type"></span><span><strong>Espaçamento ampliado</strong><small>Linhas e palavras mais abertas</small></span></button>
+              <button type="button" data-action="monochrome" aria-pressed="false"><span data-icon="contrast"></span><span><strong>Modo monocromático</strong><small>Reduzir dependência das cores</small></span></button>
+              <button type="button" data-action="reading-guide" aria-pressed="false"><span data-icon="speed"></span><span><strong>Guia de leitura</strong><small>Faixa horizontal no ponteiro</small></span></button>
+              <button type="button" data-action="highlight-links" aria-pressed="false"><span data-icon="link"></span><span><strong>Destacar links</strong><small>Facilitar a identificação de ações</small></span></button>
+              <button type="button" data-action="open-accessibility-hub"><span data-icon="accessibility"></span><span><strong>Central completa</strong><small>Ver todos os recursos</small></span></button>
+              <div class="accessibility-shortcuts"><strong>Atalhos</strong><small>Alt + L: leitura • Alt + A: menu</small></div>
+            </div>
+            <div class="profile-menu" id="profileMenu">
+              <div class="profile-identity">
+                <span data-icon="shield"></span>
+                <p><strong id="identityRoleSource">Perfil de demonstração</strong><small>Criado pelo backend de teste</small></p>
+              </div>
+              <button type="button" data-action="open-profile"><span data-icon="user"></span> Meu perfil</button>
+              <button type="button" data-action="logout"><span data-icon="logout"></span> Sair</button>
+            </div>
+          </div>
+        </header>
+
+        <main class="content" id="main-content" tabindex="-1"></main>
+      </div>
+
+      <nav class="mobile-bottom-nav" id="mobileBottomNav" aria-label="Atalhos principais">
+        <button type="button" data-view="inicio"><span data-icon="home"></span><small>Início</small></button>
+        <button type="button" data-view="servicos"><span data-icon="briefcase"></span><small>Serviços</small></button>
+        <button type="button" data-view="contratos"><span data-icon="file"></span><small>Contratos</small></button>
+        <button type="button" data-view="chat"><span data-icon="message"></span><small>Chat</small></button>
+        <button type="button" data-action="open-menu"><span data-icon="menu"></span><small>Menu</small></button>
+      </nav>
+    </div>
+
+    <div class="modal-backdrop" id="modalBackdrop" aria-hidden="true">
+      <section class="modal" role="dialog" aria-modal="true" aria-labelledby="modalTitle" tabindex="-1">
+        <header class="modal-header">
+          <div><span class="eyebrow" id="modalEyebrow">NOVA OPERAÇÃO</span><h2 id="modalTitle">Solicitar serviço</h2></div>
+          <button class="icon-button" type="button" aria-label="Fechar" data-action="close-modal"><span data-icon="close"></span></button>
+        </header>
+        <div class="modal-body" id="modalBody"></div>
+      </section>
+    </div>
+
+    <div class="toast-region" id="toastRegion" aria-live="polite" aria-atomic="true"></div>
+
+    <div class="reading-indicator is-hidden" id="readingIndicator" role="status" aria-live="polite">
+      <span data-icon="volume"></span>
+      <strong>Lendo o conteúdo da página</strong>
+      <button type="button" data-action="read-page">Parar leitura</button>
+    </div>
+
+    <div vw class="enabled">
+      <div vw-access-button class="active"></div>
+      <div vw-plugin-wrapper>
+        <div class="vw-plugin-top-wrapper"></div>
+      </div>
+    </div>
+
+    <noscript>Ative o JavaScript para usar a demonstração do Caixa SENAI.</noscript>
+    <script src="./assets/js/script.js" defer></script>
+  </body>
+</html>

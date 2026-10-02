@@ -1,0 +1,27 @@
+{
+  "name": "senai-finup-saml-validator",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Validador SAML 2.0 e ponte de sessão para o SENAI FinUp",
+  "type": "module",
+  "engines": {
+    "node": ">=20.18.0"
+  },
+  "scripts": {
+    "start": "node src/server.js",
+    "metadata:sp": "node scripts/metadata-sp.js",
+    "saml:check": "node scripts/saml-check.js",
+    "check": "node --check src/server.js && node --check src/config.js && node --check src/metadata.js && node --check src/saml.js && node --check src/stores.js"
+  },
+  "dependencies": {
+    "@node-saml/node-saml": "5.1.0",
+    "@node-saml/passport-saml": "5.1.0",
+    "dotenv": "16.4.7",
+    "express": "4.22.2",
+    "express-session": "1.19.0",
+    "fast-xml-parser": "5.11.0",
+    "helmet": "8.1.0",
+    "passport": "0.7.0",
+    "session-file-store": "1.5.0"
+  }
+}

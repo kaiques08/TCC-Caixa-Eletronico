@@ -1,0 +1,26 @@
+SENAI FINUP — EDIÇÃO LEVE PARA TABLET E DESKTOP
+================================================
+
+Esta versão prioriza aparelhos com pouca memória e processamento. Tablet e
+desktop usam a mesma navegação compacta. Os módulos educacionais adicionais
+continuam preservados no código, mas não aparecem no menu.
+
+COMO ABRIR
+----------
+1. Entre na pasta public.
+2. Abra index.html no navegador.
+3. Escolha Aluno, Professor ou Diretor.
+4. Use a barra inferior para os atalhos e o botão de menu para as demais telas.
+
+A versão funciona localmente sem backend, sem fontes externas e sem o erro
+“Failed to fetch”. O VLibras usa internet apenas quando for aberto.
+Abra telas.html para acessar o mapa organizado das telas.
+
+FUNÇÕES INCLUÍDAS
+-----------------
+Login; tutorial animado; áreas de aluno, professor e diretor; serviços;
+propostas e contratos; carteira melhorada; grupos; gestão de turmas; registro
+geral; auditoria; integrações; trilhas de aprendizagem; conteúdos; atividades;
+quiz; avaliações; XP; níveis; conquistas; ranking; Chat entre turmas; Caixa IA;
+acessibilidade; perfil e preferências; assistentes animados, incluindo Gabriel
+Ricardo; temas claro e escuro; exportação do extrato.

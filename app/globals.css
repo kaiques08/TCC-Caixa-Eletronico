@@ -1,0 +1,65 @@
+@import "tailwindcss";
+
+:root {
+  /* Cores minimalistas e elegantes baseadas no Banco do Brasil */
+  --primary-color: #0038A8; 
+  --primary-hover: #00287A;
+  --secondary-color: #F8D117; 
+  --background-light: #F4F7F9; 
+  --surface-color: #FFFFFF;
+  --text-main: #111827; /* Alto contraste para acessibilidade (WCAG) */
+  --text-muted: #4B5563;
+}
+
+body {
+  background-color: var(--background-light);
+  color: var(--text-main);
+  font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+*:focus-visible {
+  outline: 3px solid var(--primary-color);
+  outline-offset: 3px;
+}
+
+::selection {
+  color: #111827;
+  background: var(--secondary-color);
+}
+
+/* Keep surfaces crisp and avoid the cost and contrast loss of blur effects. */
+.glass-card {
+  background: var(--surface-color);
+  border: 1px solid #e5e7eb;
+  box-shadow: 0 12px 32px -24px rgba(17, 24, 39, 0.28);
+  border-radius: 1.5rem;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    scroll-behavior: auto !important;
+    transition-duration: 0.01ms !important;
+  }
+}
+
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}

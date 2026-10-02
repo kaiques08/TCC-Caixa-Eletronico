@@ -1,0 +1,7 @@
+.env
+.data/
+dist/
+node_modules/
+config/senai-idp-metadata.xml
+config/sp-private-key.pem
+config/sp-public-cert.pem
